@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Student Registration</title>
+</head>
+<body>
+  <h3>Student Login</h3>
+    <form action="loginstudent" method="post">
+        <br/>
+        Enter Student Name: <input type="text" name="stud_name" required>
+        <br><br>
+        Enter Student Password: <input type="password" name="stud_pass" required>
+        <br><br>
+        <input type="submit" name="submit">
+    </form>
+
+<h3>Student Register</h3>
+  <form action="insertstudent" method="post"><br/> 
+	 Enter Student Name<input type="text" name="stud_name">
+	 <br><br>
+	 Enter Student Password<input type="text" name="stud_pass">
+	 <br><br>
+	 <input type="submit" name="submit">
+  </form>
+  <br><br>
+ <a href="ViewServlet">View All Students</a>
+</body>
+</html>
