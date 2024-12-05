@@ -1,0 +1,4 @@
+2024-11-14 16:50:28 [main] FATAL com.deloitte.dev.Hello - FATAL message
+2024-11-14 16:50:28 [main] WARN  com.deloitte.dev.Hello - WARN message
+2024-11-14 16:50:28 [main] ERROR com.deloitte.dev.Hello - ERROR message
+2024-11-14 16:50:28 [main] INFO  com.deloitte.dev.Hello - INFO message
